@@ -1,0 +1,20 @@
+git add Test.txt
+git commit -m "First commit"
+git commit -m "Second commit"
+git commit -m "Third commit"
+git branch hotfix
+git branch iss53
+git checkout iss53
+git commit -m "Fourth commit"
+git checkout hotfix
+git commit -m "fifth commit"
+git checkout master
+git merge hotfix
+git merge iss53
+git branch -d hotfix
+git branch -d iss53
+
+
+
+
+
